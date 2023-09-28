@@ -6,6 +6,12 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
+allred:
+  name: Christopher Allred
+  linkedin: christopher-allred
+  url: https://zenif-night.github.io
+
+
 cotes:
   name: Cotes Chung
   twitter: cotes2020
