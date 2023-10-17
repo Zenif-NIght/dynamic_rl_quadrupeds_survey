@@ -26,7 +26,7 @@ title: Dynamic RL Quadrupeds Survey # the main title
 tagline: Exploring Dynamic Reinforcement Learning in Quadruped Robots # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  deep dive into the world of dynamic robotics
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://zenif-nigh.github.io"
@@ -34,21 +34,21 @@ url: "https://zenif-nigh.github.io"
 github:
   username: zenif-night # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+# twitter:
+#   username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Christopher A.
-  email: example@domain.com # change to your email address
+  email: https://zenif-nigh.github.io # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    # - https://twitter.com/username # change to your twitter homepage
+    - https://github.com/zenif-nigh # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/christopher-allred/
 
 google_site_verification: # fill in to your verification string
 
@@ -95,8 +95,8 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
+    repo: Zenif-NIght/dynamic_rl_quadrupeds_survey # <gh-username>/<repo>
+    repo_id: R_kgDOKZpQKg
     category:
     category_id:
     mapping: # optional, default to 'pathname'

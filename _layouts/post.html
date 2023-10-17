@@ -19,7 +19,16 @@ tail_includes:
     <span>
       {{ site.data.locales[lang].post.posted }}
       {% include datetime.html date=page.date tooltip=true lang=lang %}
-    </span>
+    </span>    
+
+    {% if page.paper_author %}
+    <div class="d-flex justify-content-between">
+      <span>
+        <a href="https://scholar.google.com/scholar?q={{ page.paper_author | url_encode }}">{{ page.paper_author }}</a>
+      </span>
+    </div>
+    {% endif %}
+
 
     <!-- lastmod date -->
     {% if page.last_modified_at and page.last_modified_at != page.date %}
